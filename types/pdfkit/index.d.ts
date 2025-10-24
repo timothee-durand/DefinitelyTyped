@@ -545,6 +545,8 @@ declare namespace PDFKit.Mixins {
         width?: number | undefined;
         /** The maximum height that text should be clipped to */
         height?: number | undefined;
+        /** The rotation of the text in degrees (by default 0) */
+        rotation?: number | undefined;
         /** The character to display at the end of the text when it is too long. Set to true to use the default character. */
         ellipsis?: boolean | string | undefined;
         /** The number of columns to flow the text into */
